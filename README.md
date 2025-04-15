@@ -1,71 +1,71 @@
-# Finanças Pessoais - Aplicativo de Gestão Financeira
+# Personal Finance - Financial Management App
 
-Um aplicativo de gestão financeira pessoal construído com React Native e Expo.
+A personal finance management app built with React Native and Expo.
 
-## Funcionalidades
+## Features
 
-- **Registro de Receitas:** Adicione suas fontes de renda com valores e datas.
-- **Registro de Despesas:** Cadastre gastos por categoria.
-- **Dashboard:** Visualize o resumo financeiro do mês atual.
-- **Relatórios:** Acompanhe sua evolução financeira com gráficos e estatísticas.
-- **Taxa de Economia:** Monitore quanto você está economizando mensalmente.
+- **Income Recording:** Add your income sources with values and dates.
+- **Expense Recording:** Register expenses by category.
+- **Dashboard:** View current month's financial summary.
+- **Reports:** Track your financial evolution with charts and statistics.
+- **Savings Rate:** Monitor how much you're saving monthly.
 
-## Tecnologias
+## Technologies
 
-- React Native com Expo
+- React Native with Expo
 - TypeScript
-- NativeWind (Tailwind CSS para React Native)
+- NativeWind (Tailwind CSS for React Native)
 - React Navigation
-- AsyncStorage para persistência de dados
-- date-fns para manipulação de datas
+- AsyncStorage for data persistence
+- date-fns for date manipulation
 
-## Como executar
+## How to Run
 
-### Pré-requisitos
+### Prerequisites
 
-- Node.js (versão 14 ou superior)
-- npm ou yarn
+- Node.js (version 14 or higher)
+- npm or yarn
 - Expo CLI
 
-### Instalação
+### Installation
 
-1. Clone o repositório:
+1. Clone the repository:
 ```
-git clone https://github.com/seu-usuario/casal-finances.git
+git clone https://github.com/your-username/casal-finances.git
 cd casal-finances
 ```
 
-2. Instale as dependências:
+2. Install dependencies:
 ```
 npm install
 ```
 
-3. Inicie o servidor de desenvolvimento:
+3. Start the development server:
 ```
 npm start
 ```
 
-4. Use o Expo Go em seu dispositivo móvel para escanear o QR code ou execute em um emulador.
+4. Use Expo Go on your mobile device to scan the QR code or run on an emulator.
 
-## Estrutura do Projeto
+## Project Structure
 
 ```
-assets/        # Imagens, fontes e outros recursos estáticos
+assets/        # Images, fonts, and other static resources
 src/
-  components/  # Componentes reutilizáveis
-  screens/     # Telas da aplicação
-  navigation/  # Configuração de navegação
+  components/  # Reusable components
+  screens/     # Application screens
+  navigation/  # Navigation configuration
   hooks/       # Custom hooks
-  utils/       # Funções utilitárias
-  types/       # Definições de tipos TypeScript
-App.tsx        # Ponto de entrada da aplicação
-app.json       # Configuração do Expo
+  utils/       # Utility functions
+  types/       # TypeScript type definitions
+App.tsx        # Application entry point
+app.json       # Expo configuration
 ```
 
-## Contribuição
+## Contributing
 
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e enviar pull requests.
+Contributions are welcome! Feel free to open issues and submit pull requests.
 
-## Licença
+## License
 
-Este projeto está licenciado sob a licença MIT - veja o arquivo LICENSE para detalhes.
+This project is licensed under the MIT License - see the LICENSE file for details.
