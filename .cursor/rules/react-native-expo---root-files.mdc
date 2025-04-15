@@ -1,0 +1,7 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+- Always keep App.js clean and delegate work to other components.
+- Always configure app.json based on the documentation

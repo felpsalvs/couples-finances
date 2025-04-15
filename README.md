@@ -1,50 +1,71 @@
-# Welcome to your Expo app 👋
+# Finanças Pessoais - Aplicativo de Gestão Financeira
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Um aplicativo de gestão financeira pessoal construído com React Native e Expo.
 
-## Get started
+## Funcionalidades
 
-1. Install dependencies
+- **Registro de Receitas:** Adicione suas fontes de renda com valores e datas.
+- **Registro de Despesas:** Cadastre gastos por categoria.
+- **Dashboard:** Visualize o resumo financeiro do mês atual.
+- **Relatórios:** Acompanhe sua evolução financeira com gráficos e estatísticas.
+- **Taxa de Economia:** Monitore quanto você está economizando mensalmente.
 
-   ```bash
-   npm install
-   ```
+## Tecnologias
 
-2. Start the app
+- React Native com Expo
+- TypeScript
+- NativeWind (Tailwind CSS para React Native)
+- React Navigation
+- AsyncStorage para persistência de dados
+- date-fns para manipulação de datas
 
-   ```bash
-    npx expo start
-   ```
+## Como executar
 
-In the output, you'll find options to open the app in a
+### Pré-requisitos
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- Node.js (versão 14 ou superior)
+- npm ou yarn
+- Expo CLI
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### Instalação
 
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
+1. Clone o repositório:
+```
+git clone https://github.com/seu-usuario/casal-finances.git
+cd casal-finances
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+2. Instale as dependências:
+```
+npm install
+```
 
-## Learn more
+3. Inicie o servidor de desenvolvimento:
+```
+npm start
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+4. Use o Expo Go em seu dispositivo móvel para escanear o QR code ou execute em um emulador.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## Estrutura do Projeto
 
-## Join the community
+```
+assets/        # Imagens, fontes e outros recursos estáticos
+src/
+  components/  # Componentes reutilizáveis
+  screens/     # Telas da aplicação
+  navigation/  # Configuração de navegação
+  hooks/       # Custom hooks
+  utils/       # Funções utilitárias
+  types/       # Definições de tipos TypeScript
+App.tsx        # Ponto de entrada da aplicação
+app.json       # Configuração do Expo
+```
 
-Join our community of developers creating universal apps.
+## Contribuição
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e enviar pull requests.
+
+## Licença
+
+Este projeto está licenciado sob a licença MIT - veja o arquivo LICENSE para detalhes.
